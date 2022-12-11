@@ -32,7 +32,7 @@ const inventors = [
     const inventorsNames = []
 
     inventors.forEach(inventor => {
-        inventorsNames.push(inventor.first, inventor.last)
+        inventorsNames.push(`${inventor.first}, ${inventor.last}`)
     })
 
     console.log(inventorsNames)
